@@ -35,7 +35,7 @@ class Shape(ABC):
         pass
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONCRETE ABSTRACTIONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ REFINED ABSTRACTIONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 class Circle(Shape):
     def __init__(self, radius, color):
         self.radius = radius
